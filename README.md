@@ -1,4 +1,4 @@
-# todoapp
+# Flutter Catalog App
 
 A new Flutter project.
 
