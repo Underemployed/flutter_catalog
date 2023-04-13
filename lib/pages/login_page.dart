@@ -78,9 +78,15 @@ class _LoginPageState extends State<LoginPage> {
                     obscureText: true,
                     validator: (value){
                         if(value==null || value.isEmpty){
+<<<<<<< HEAD
                           return "Password Cannot be empty";
                         }else if(value.length<8){
                           return "Password should be atleast 8 digits";
+=======
+                          return "Username Cannot be empty";
+                        }else if(value.length<6){
+                          return "password should have  atleast 6 digits";
+>>>>>>> b3c72b888a78e744e5621159b4dde396c6111016
                         }
                         return null;
                       },
