@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import "package:todoapp/utils/routes.dart";
+import 'package:todoapp/widgets/drawer.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -9,9 +12,11 @@ class HomePage extends StatelessWidget {
         title: Text("Catalog App"),
       ),
       body: Center(
-        child: Container(child: Text("Welcome"),),
+        child: Container(
+          child: Text("Welcome"),
+        ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
